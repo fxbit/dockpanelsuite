@@ -493,6 +493,15 @@ namespace WeifenLuo.WinFormsUI.Docking {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Occurs when the value of the AutoHideWindow&apos;s ActiveContent changed..
+        /// </summary>
+        internal static string DockPanel_ActiveAutoHideContentChanged_Description {
+            get {
+                return ResourceManager.GetString("DockPanel_ActiveAutoHideContentChanged_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Occurs when the value of ActiveContentProperty changed..
         /// </summary>
         internal static string DockPanel_ActiveContentChanged_Description {
